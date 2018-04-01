@@ -1,0 +1,7 @@
+<snippet>
+<!-- $1={this.props.$1} -->
+	<content><![CDATA[
+$1={this.props.$1}]]></content>
+
+	<tabTrigger>passP</tabTrigger>
+</snippet>

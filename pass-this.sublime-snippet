@@ -1,0 +1,7 @@
+<snippet>
+<!-- $1={this.$1} -->
+	<content><![CDATA[
+$1={this.$1}]]></content>
+
+	<tabTrigger>passT</tabTrigger>
+</snippet>
