@@ -2,7 +2,7 @@
 
 - cN -> className=""
 - deb -> debugger;
-- dcN -> <div className=""></div>
+- dcN -> <code><div className=""></div></code>
 - for -> for(i = 0; i <loop.length}; i++) { console.log(loop[i]); }
 - gid -> document.getElementById('')
 - gcn -> document.getElementsByClassName('')
@@ -11,6 +11,6 @@
 - null -> ||null
 - qs -> document.querySelector('')
 - qsa -> document.querySelectorAll('')
-- rie -> { ? () : ()}
+- rie -> { bool ? () : ()}
 - rng -> Math.floor(Math.random() * (max - min + 1)) + min
 - timeout -> setTimeout(()=> { }, 100);
