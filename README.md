@@ -2,7 +2,7 @@
 
 - cN -> className=""
 - deb -> debugger;
-- dcN -> <code><div className=""></div></code>
+- dcN -> `<div className=""></div>`
 - for -> for(i = 0; i <loop.length}; i++) { console.log(loop[i]); }
 - gid -> document.getElementById('')
 - gcn -> document.getElementsByClassName('')
