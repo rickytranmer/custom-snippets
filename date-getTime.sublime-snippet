@@ -1,0 +1,7 @@
+<snippet>
+<!-- new Date().getTime() -->
+	<content><![CDATA[
+new Date()${1:.getTime()}]]></content>
+
+	<tabTrigger>dgt</tabTrigger>
+</snippet>

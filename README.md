@@ -8,6 +8,7 @@ Place any custom snippets in the `User` folder
 - cN -> `className=""`
 - deb -> `debugger;`
 - dcN -> `<div className=""></div>`
+- dgt -> `new Date().getTime()`
 - for -> `for(i = 0; i <loop.length}; i++) { console.log(loop[i]); }`
 - gid -> `document.getElementById('')`
 - gcn -> `document.getElementsByClassName('')`
@@ -17,4 +18,4 @@ Place any custom snippets in the `User` folder
 - qsa -> `document.querySelectorAll('')`
 - rie -> `{ bool ? () : ()}`
 - rng -> `Math.floor(Math.random() * (max - min + 1)) + min`
-- timeout -> `setTimeout(()=> { }, 100);
+- timeout -> `setTimeout(()=> { }, 100);`
