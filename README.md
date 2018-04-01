@@ -20,7 +20,12 @@ Place any custom snippets in the `User` folder.
 - deb -> `debugger;`
 - dcN -> `<div className=""></div>`
 - dgt -> `new Date().getTime()`
-- for -> `for(i = 0; i <loop.length}; i++) { console.log(loop[i]); }`
+- for -> 
+```
+for(i = 0; i <loop.length}; i++) {
+	console.log(loop[i]); 
+}
+```
 - gid -> `document.getElementById('')`
 - gcn -> `document.getElementsByClassName('')`
 - interval -> `setInterval(()=> { }, 100);`
