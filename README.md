@@ -2,6 +2,7 @@
 
 ## Installation
 Sublime Text -> Preferences -> Browse Packages
+
 Place any custom snippets in the `User` folder
 
 ## Snippets
@@ -16,6 +17,6 @@ Place any custom snippets in the `User` folder
 - log -> `console.log();`
 - qs -> `document.querySelector('')`
 - qsa -> `document.querySelectorAll('')`
-- rie -> `{ bool ? () : ()}`
+- rie -> `{ bool ? () : () }`
 - rng -> `Math.floor(Math.random() * (max - min + 1)) + min`
 - timeout -> `setTimeout(()=> { }, 100);`
