@@ -1,5 +1,10 @@
 # Custom Sublime Snippets
 
+## Installation
+Sublime Text -> Preferences -> Browse Packages
+Place any custom snippets in the `User` folder
+
+## Snippets
 - cN -> `className=""`
 - deb -> `debugger;`
 - dcN -> `<div className=""></div>`
