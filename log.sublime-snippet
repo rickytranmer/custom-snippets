@@ -1,0 +1,9 @@
+<snippet>
+<!-- console.log($1) -->
+	<content><![CDATA[
+console.log($1);
+
+]]></content>
+
+	<tabTrigger>log</tabTrigger>
+</snippet>

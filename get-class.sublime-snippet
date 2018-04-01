@@ -1,0 +1,7 @@
+<snippet>
+<!-- document.getElementsByClassName('') -->
+	<content><![CDATA[
+document.getElementsByClassName('$1')]]></content>
+
+	<tabTrigger>gcn</tabTrigger>
+</snippet>

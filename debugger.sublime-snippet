@@ -1,0 +1,9 @@
+<snippet>
+<!-- debugger; -->
+	<content><![CDATA[
+debugger;
+
+]]></content>
+
+	<tabTrigger>deb</tabTrigger>
+</snippet>

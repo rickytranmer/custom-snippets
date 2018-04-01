@@ -1,0 +1,7 @@
+<snippet>
+<!-- document.getElementById('') -->
+	<content><![CDATA[
+document.getElementById('$1')]]></content>
+
+	<tabTrigger>gid</tabTrigger>
+</snippet>

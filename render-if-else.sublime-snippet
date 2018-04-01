@@ -1,0 +1,12 @@
+<snippet>
+<!-- REACT -->
+<!-- {$1 ? () : ()} -->
+	<content><![CDATA[
+{ $1 ? (
+	$2
+) : (  /* !$1 */
+	$3
+)}]]></content>
+
+	<tabTrigger>rie</tabTrigger>
+</snippet>

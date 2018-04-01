@@ -1,0 +1,8 @@
+<snippet>
+<!-- REACT -->
+<!-- className="$1" -->
+	<content><![CDATA[
+className="$1"]]></content>
+
+	<tabTrigger>cN</tabTrigger>
+</snippet>

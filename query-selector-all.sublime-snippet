@@ -1,0 +1,7 @@
+<snippet>
+<!-- document.querySelectorAll('') -->
+	<content><![CDATA[
+document.querySelectorAll('$1')]]></content>
+
+	<tabTrigger>qsa</tabTrigger>
+</snippet>

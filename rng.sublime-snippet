@@ -1,0 +1,7 @@
+<snippet>
+<!-- Math.floor(Math.random() * (max - min + 1)) + min -->
+	<content><![CDATA[
+Math.floor(Math.random() * (Math.floor(${2:max}) - Math.ceil(${1:min}) + 1)) + Math.ceil(${1:min})]]></content>
+
+	<tabTrigger>rng</tabTrigger>
+</snippet>

@@ -1,0 +1,7 @@
+<snippet>
+<!-- ||null -->
+	<content><![CDATA[
+||null$1]]></content>
+
+	<tabTrigger>|n</tabTrigger>
+</snippet>
