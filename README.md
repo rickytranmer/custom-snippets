@@ -3,13 +3,14 @@
 ## Installation
 Sublime Text -> Preferences -> Browse Packages
 
-Place any custom snippets in the `User` folder
+Place any custom snippets in the `User` folder.
 
 ## Snippets
 - cN -> `className=""`
 - comL -> `/*  */`
 - comR -> `{/*  */}`
-- comB -> ```
+- comB -> 
+```
 /**
  * 
  *
