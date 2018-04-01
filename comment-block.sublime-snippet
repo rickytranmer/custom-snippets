@@ -1,0 +1,12 @@
+<snippet>
+<!-- Block Comment -->
+	<content><![CDATA[
+/**
+ * 
+ * $1
+ * 
+**/
+]]></content>
+
+	<tabTrigger>comB</tabTrigger>
+</snippet>

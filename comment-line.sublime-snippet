@@ -1,0 +1,7 @@
+<snippet>
+<!-- /* $1 */ -->
+	<content><![CDATA[
+/* $1 */]]></content>
+
+	<tabTrigger>comL</tabTrigger>
+</snippet>

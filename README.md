@@ -7,6 +7,15 @@ Place any custom snippets in the `User` folder
 
 ## Snippets
 - cN -> `className=""`
+- comL -> `/*  */`
+- comR -> `{/*  */}`
+- comB -> ```
+/**
+ * 
+ *
+ * 
+**/
+```
 - deb -> `debugger;`
 - dcN -> `<div className=""></div>`
 - dgt -> `new Date().getTime()`
