@@ -30,9 +30,9 @@ for(i = 0; i <loop.length}; i++) {
 **gcn** -> `document.getElementsByClassName('')`<br />
 **interval** -> `setInterval(()=> { }, 100);`<br />
 **log** -> `console.log();`<br />
-**passT** -> `$1={this.$1}`<br />
-**passP** -> `$1={this.props.$1}`<br />
-**passS** -> `$1={this.state.$1}`<br />
+**passT** -> `val={this.val}`<br />
+**passP** -> `val={this.props.val}`<br />
+**passS** -> `val={this.state.val}`<br />
 **qs** -> `document.querySelector('')`<br />
 **qsa** -> `document.querySelectorAll('')`<br />
 **rie** -> `{ bool ? () : () }`<br />
