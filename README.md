@@ -8,9 +8,9 @@
 - gcn -> `document.getElementsByClassName('')`
 - interval -> `setInterval(()=> { }, 100);`
 - log -> `console.log()`
-- null -> `||null`
+- |n -> `||null`
 - qs -> `document.querySelector('')`
 - qsa -> `document.querySelectorAll('')`
 - rie -> `{ bool ? () : ()}`
 - rng -> `Math.floor(Math.random() * (max - min + 1)) + min`
-- timeout -> `setTimeout(()=> { }, 100);`
+- timeout -> `setTimeout(()=> { }, 100);
