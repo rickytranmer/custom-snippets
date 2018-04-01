@@ -13,7 +13,7 @@ Place any custom snippets in the `User` folder
 - gid -> `document.getElementById('')`
 - gcn -> `document.getElementsByClassName('')`
 - interval -> `setInterval(()=> { }, 100);`
-- log -> `console.log()`
+- log -> `console.log();`
 - qs -> `document.querySelector('')`
 - qsa -> `document.querySelectorAll('')`
 - rie -> `{ bool ? () : ()}`
