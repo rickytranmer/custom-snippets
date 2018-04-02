@@ -44,5 +44,5 @@ for(i = 0; i <loop.length}; i++) {
     (props)=> <Element  /> } />
 )}
 ```
-**routeP** -> `<Route path='/' render={ (props)=> <Element  /> } />`
+**routeP** -> `<Route path='/' render={ (props)=> <Element  /> } />`<br />
 **timeout** -> `setTimeout(()=> { }, 100);`
