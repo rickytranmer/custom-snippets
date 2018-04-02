@@ -1,0 +1,10 @@
+<snippet>
+<!-- Map mulitple paths and pass props to one React Route -->
+	<content><![CDATA[
+{${1:['/']}.map((path)=> 
+  <Route key={path} exact path={path} render={
+    (props)=> <${2:Element}  /> } />
+)}]]></content>
+
+	<tabTrigger>routeM</tabTrigger>
+</snippet>

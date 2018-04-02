@@ -1,0 +1,7 @@
+<snippet>
+<!-- Pass props to React Route -->
+	<content><![CDATA[
+<Route path='${1:/}' render={ (props)=> <${2:Element}  /> } />]]></content>
+
+	<tabTrigger>routeP</tabTrigger>
+</snippet>

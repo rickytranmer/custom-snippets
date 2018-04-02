@@ -37,4 +37,12 @@ for(i = 0; i <loop.length}; i++) {
 **qsa** -> `document.querySelectorAll('')`<br />
 **rie** -> `{ bool ? () : () }`<br />
 **rng** -> `Math.floor(Math.random() * (max - min + 1)) + min`<br />
+**routeM** -> 
+```
+{array}.map((path)=> 
+  <Route key={path} exact path={path} render={
+    (props)=> <Element  /> } />
+)}
+```
+**routeP** -> `<Route path='/' render={ (props)=> <Element  /> } />`
 **timeout** -> `setTimeout(()=> { }, 100);`
