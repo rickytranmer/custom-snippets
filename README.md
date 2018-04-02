@@ -39,7 +39,7 @@ for(i = 0; i <loop.length}; i++) {
 **rng** -> `Math.floor(Math.random() * (max - min + 1)) + min`<br />
 **routeM** -> 
 ```
-{array}.map((path)=> 
+{array.map((path)=> 
   <Route key={path} exact path={path} render={
     (props)=> <Element  /> } />
 )}
