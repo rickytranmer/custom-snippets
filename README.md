@@ -1,11 +1,16 @@
-# Custom Sublime Snippets
+# Custom Snippets
+## for [Sublime](https://github.com/rickytranmer/custom-snippets##sublime) and [VS Code](https://github.com/rickytranmer/custom-snippets#vs%20code)
 
-## Installation
+<br>
+
+## SUBLIME
+### &nbsp;-Installation-
 Sublime Text -> Preferences -> Browse Packages
 
 Place any custom snippets in the `User` folder.
 
-## Snippets
+
+### &nbsp;-Snippets-
 **cN** -> `className=""`<br />
 **comL** -> `/*  */`<br />
 **comR** -> `{/*  */}`<br />
@@ -46,3 +51,14 @@ for(i = 0; i <loop.length}; i++) {
 ```
 **routeP** -> `<Route path='/' render={ (props)=> <Element  /> } />`<br />
 **timeout** -> `setTimeout(()=> { }, 100);`
+
+<br>
+
+## VS CODE
+### &nbsp;-Installation-
+Paste .json in Code -> User -> Snippets
+
+### &nbsp;-Snippets-
+[javascript](https://github.com/rickytranmer/custom-snippets/blob/master/vscode/javascript.json)
+
+[react](https://github.com/rickytranmer/custom-snippets/blob/master/vscode/javascriptreact.json)
