@@ -1,0 +1,130 @@
+{
+	//COPY FROM JSREACT
+	"querySelector": {
+		"prefix": "qs",
+		"body": [
+			"${2:document}.querySelector('$1')"
+		],
+		"description": "Query Selector"
+	},
+	"querySelectorAll": {
+		"prefix": "qsa",
+		"body": [
+			"${2:document}.querySelectorAll('$1')"
+		],
+		"description": "Query Selector All"
+	},
+	"getElementById": {
+		"prefix": "gid",
+		"body": [
+			"document.getElementById('$1')"
+		],
+		"description": "Get element by ID"
+	},
+	"getElementsByClassName": {
+		"prefix": "gcn",
+		"body": [
+			"${2:document}.getElementsByClassName('$1')"
+		],
+		"description": "Get elements by class name"
+	},
+	"Random Number Generator": {
+		"prefix": "rng",
+		"body": [
+			"Math.floor(Math.random() * (Math.floor(${2:max}) - Math.ceil(${1:min}) + 1)) + Math.ceil(${1:min})"
+		],
+		"description": "Generate number between 'min' and 'max'"
+	},
+	"setTimeout()": {
+		"prefix": "timeout",
+		"body": [
+			"setTimeout(()=> { $2}, ${1:100});"
+		],
+		"description": "setTimeout()"
+	},
+	"setInterval()": {
+		"prefix": "interval",
+		"body": [
+			"setInterval(()=> { $2}, ${1:100});"
+		],
+		"description": "setInterval()"
+	},
+	"Comment Block": {
+		"prefix": "comB",
+		"body": [
+			"/**",
+			" * ",
+			" * $1",
+			" * ",
+			"**/",
+		],
+		"description": "Multi-line comment block"
+	},
+	//COPY FROM JSREACT
+	
+	"Pass props to Route": {
+		"prefix": "routeP",
+		"body": [
+			"<Route path='${1:/}' render={",
+			"\t(props)=> <${2:Element} {...props} />",
+			"} />"
+		],
+		"description": "Pass props to React Route element"
+	},
+	
+	"Map paths to Route": {
+		"prefix": "routeM",
+		"body": [
+			"{${1:['/']}.map((path)=>", 
+  		"\t<Route key={path} exact path={path} render={",
+			"\t\t(props)=> <${2:Element} {...props} /> } />",
+			")}"
+		],
+		"description": "Maps mulitple routes and pass props to React Route element"
+	},
+	
+	"Pass this": {
+		"prefix": "passT",
+		"body": [
+			"$1={this.$1}"
+		],
+		"description": "Pass this.X"
+	},
+	
+	"Pass this.props": {
+		"prefix": "passP",
+		"body": [
+			"$1={this.props.$1}"
+		],
+		"description": "Pass this.props.X"
+	},
+	
+	"Pass this.state": {
+		"prefix": "passS",
+		"body": [
+			"$1={this.state.$1}"
+		],
+		"description": "Pass this.state.X"
+	},
+	
+	"{/* Comment */}": {
+		"prefix": "comR",
+		"body": [
+			"{/* $1 */}"
+		],
+		"description": "React render comment"
+	},
+
+	"Render if else": {
+		"prefix": "rie",
+		"body": [
+			"{ $1 ? (",
+			"\t$2",
+			") : (  /* !$1 */",
+			"\t$3",
+			")}"
+		],
+		"description": "Render if else statement"
+	},
+
+}
