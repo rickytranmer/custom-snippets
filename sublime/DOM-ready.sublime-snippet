@@ -1,0 +1,14 @@
+<snippet>
+<!-- DOM is ready -->
+	<content><![CDATA[
+function checkReady(isReady) {
+	let attachEvent = document.attachEvent ? document.readyState === "complete" : document.readyState !== "loading";
+	attachEvent ? isReady() : document.addEventListener('DOMContentLoaded', isReady);
+}
+checkReady(()=> {
+	$1
+});//DOM is ready
+]]></content>
+
+	<tabTrigger>ready</tabTrigger>
+</snippet>
