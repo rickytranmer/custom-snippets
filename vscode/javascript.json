@@ -44,7 +44,7 @@
 	"setTimeout()": {
 		"prefix": "timeout",
 		"body": [
-			"setTimeout(()=> { $2}, ${1:100});"
+			"setTimeout(function() { $2}, ${1:100});"
 		],
 		"description": "setTimeout()"
 	},
@@ -94,9 +94,19 @@
 	"TODO Comment": {
 		"prefix": "tdc",
 		"body": [
-			"//\t\t - ",
+			"//\t\t- ",
 		],
 		"description": "//TODO		 - "
+	},
+
+	"ESLint Console Log": {
+		"prefix": "eslog",
+		"body": [
+			"/* eslint-disable no-console*/",
+    	"console.log($0);",
+    	"/* eslint-enable no-console*/",
+		],
+		"description": "Bypass ESLint no-console"
 	},
 
 //COPY TO JSREACT
