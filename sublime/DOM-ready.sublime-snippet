@@ -5,7 +5,7 @@ function checkReady(isReady) {
 	let attachEvent = document.attachEvent ? document.readyState === "complete" : document.readyState !== "loading";
 	attachEvent ? isReady() : document.addEventListener('DOMContentLoaded', isReady);
 }
-checkReady(()=> {
+checkReady(function() {
 	$1
 });//DOM is ready
 ]]></content>
