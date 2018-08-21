@@ -11,11 +11,21 @@
 		],
 		"description": "Require .ejs file"
 	},
+	
 	"blank noopener": {
 		"prefix": "bno",
 		"body": [
 			"target=\"_blank\" rel=\"noopener\""
 		],
 		"description": "Target blank & rel noopener"
-	}
+	},
+
+
+	"javascript:void(0);": {
+		"prefix": "jsv",
+		"body": [
+			"javascript:void(0);",
+		],
+		"description": "javascript:void(0);"
+	},
 }
