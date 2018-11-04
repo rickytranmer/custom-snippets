@@ -1,9 +1,13 @@
 <snippet>
 	<!-- For loop: cursor starts at end loop variable, then to right of '<' (change or add =), then after console log -->
 	<content><![CDATA[
-☐ Jira
-☐ Asana
-☐ Workfront
+GENERAL:
+  ☐ Jira/Asana
+  ☐ Workfront
+
+
+$1:
+	
 ]]></content>
 
 	<tabTrigger>JAW</tabTrigger>
