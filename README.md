@@ -5,7 +5,7 @@
 
 ## VS CODE
 ### &nbsp;- Installation
-Paste .json in Code -> User -> Snippets
+Paste contents of .json in corresponding Code -> Preferences -> User Snippets, or paste the files directly in /Code/User/Snippets
 
 ### &nbsp;- Snippets
 [javascript](https://github.com/rickytranmer/custom-snippets/blob/master/vscode/javascript.json)
