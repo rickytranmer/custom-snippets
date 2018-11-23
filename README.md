@@ -1,5 +1,5 @@
 # Custom Snippets
-## for [Sublime](https://github.com/rickytranmer/custom-snippets##sublime) and [VS Code](https://github.com/rickytranmer/custom-snippets#vs%20code)
+## for [VS Code](https://github.com/rickytranmer/custom-snippets#vs%20code) and [Sublime](https://github.com/rickytranmer/custom-snippets##sublime)
 
 <br>
 
