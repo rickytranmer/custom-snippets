@@ -3,7 +3,26 @@
 
 <br>
 
-## SUBLIME
+## VS CODE
+### &nbsp;- Installation
+Paste .json in Code -> User -> Snippets
+
+### &nbsp;- Snippets
+[javascript](https://github.com/rickytranmer/custom-snippets/blob/master/vscode/javascript.json)
+
+[html](https://github.com/rickytranmer/custom-snippets/blob/master/vscode/html.json)
+
+[scss](https://github.com/rickytranmer/custom-snippets/blob/master/vscode/scss.json)
+
+[vue](https://github.com/rickytranmer/custom-snippets/blob/master/vscode/vue-html.json)
+
+[react](https://github.com/rickytranmer/custom-snippets/blob/master/vscode/javascriptreact.json)
+
+<br>
+<hr>
+<br>
+
+## SUBLIME (no longer updated)
 ### &nbsp;-Installation-
 Sublime Text -> Preferences -> Browse Packages
 
@@ -51,14 +70,3 @@ for(i = 0; i <loop.length}; i++) {
 ```
 **routeP** -> `<Route path='/' render={ (props)=> <Element  /> } />`<br />
 **timeout** -> `setTimeout(()=> { }, 100);`
-
-<br>
-
-## VS CODE
-### &nbsp;-Installation-
-Paste .json in Code -> User -> Snippets
-
-### &nbsp;-Snippets-
-[javascript](https://github.com/rickytranmer/custom-snippets/blob/master/vscode/javascript.json)
-
-[react](https://github.com/rickytranmer/custom-snippets/blob/master/vscode/javascriptreact.json)
