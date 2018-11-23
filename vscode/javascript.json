@@ -1,10 +1,8 @@
 {
-//COPY TO JSREACT
-
 	"querySelector()": {
 		"prefix": "qs",
 		"body": [
-			"${2:document}.querySelector('$1')"
+			"${2:document}.querySelector('$1')$0"
 		],
 		"description": "Query Selector"
 	},
@@ -12,7 +10,7 @@
 	"querySelectorAll()": {
 		"prefix": "qsa",
 		"body": [
-			"${2:document}.querySelectorAll('$1')"
+			"${2:document}.querySelectorAll('$1')$0"
 		],
 		"description": "Query Selector All"
 	},
@@ -20,7 +18,7 @@
 	"getElementById()": {
 		"prefix": "gid",
 		"body": [
-			"document.getElementById('$1')"
+			"document.getElementById('$1')$0"
 		],
 		"description": "Get element by ID"
 	},
@@ -28,7 +26,7 @@
 	"getElementsByClassName()": {
 		"prefix": "gcn",
 		"body": [
-			"${2:document}.getElementsByClassName('$1')"
+			"${2:document}.getElementsByClassName('$1')$0"
 		],
 		"description": "Get elements by class name"
 	},
@@ -44,7 +42,7 @@
 	"setTimeout()": {
 		"prefix": "timeout",
 		"body": [
-			"setTimeout(function() { $2}, ${1:100});"
+			"setTimeout(function() { $0}, ${1:100});"
 		],
 		"description": "setTimeout()"
 	},
@@ -52,7 +50,7 @@
 	"setInterval()": {
 		"prefix": "interval",
 		"body": [
-			"setInterval(()=> { $2}, ${1:100});"
+			"setInterval(function() { $0}, ${1:100});"
 		],
 		"description": "setInterval()"
 	},
@@ -62,7 +60,7 @@
 		"body": [
 			"/**",
 			" * ",
-			" * $1",
+			" * $0",
 			" * ",
 			"**/",
 		],
@@ -76,17 +74,17 @@
 			"\tlet attachEvent = document.attachEvent ? document.readyState === \"complete\" : document.readyState !== \"loading\";",
 			"\tattachEvent ? isReady() : document.addEventListener('DOMContentLoaded', isReady);",
 			"}",
-			"checkReady(()=> {",
-			"\t$1",
+			"checkReady(function() {",
+			"\t$0",
 			"});//DOM is ready",
 		],
 		"description": "Execute callback function when DOM is ready."
 	},
 
-	"removeMe": {
+	"Remove Element": {
 		"prefix": "removeMe",
 		"body": [
-			"$1.parentElement.removeChild($1)",
+			"$0.parentElement.removeChild($0)",
 		],
 		"description": "Remove HTML Element"
 	},
@@ -94,21 +92,29 @@
 	"TODO Comment": {
 		"prefix": "tdc",
 		"body": [
-			"//\t\t- ",
+			"//\t\t- $0",
 		],
-		"description": "//TODO		 - "
+		"description": "//\t\t- "
 	},
 
-	"ESLint Console Log": {
+	"console.log()": {
+		"prefix": "log",
+		"body": [
+			"console.log($0);",
+		],
+		"description": "console.log();"
+	},
+
+	"ESLint console.log()": {
 		"prefix": "eslog",
 		"body": [
 			"/* eslint-disable no-console*/",
-    	"console.log($0);",
-    	"/* eslint-enable no-console*/",
+			"console.log($0);",
+			"/* eslint-enable no-console*/",
 		],
 		"description": "Bypass ESLint no-console"
 	},
 
-//COPY TO JSREACT
+// ^ COPY TO JSREACT ^
 
 }

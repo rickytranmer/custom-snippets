@@ -22,8 +22,8 @@
 	"@include breakpoint()": {
 		"prefix": "ibp",
 		"body": [
-			"@include breakpoint($1) {",
-			"\t$2",
+			"@include breakpoint(${1:large}) {",
+			"\t$0",
 			"}"
 		],
 		"description": "@include breakpoint() rule"

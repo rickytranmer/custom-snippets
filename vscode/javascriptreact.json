@@ -65,35 +65,39 @@
 	},
 
 
-// COPY FROM JSREACT
-	"querySelector": {
+// v COPY FROM JSREACT v
+	"querySelector()": {
 		"prefix": "qs",
 		"body": [
-			"${2:document}.querySelector('$1')"
+			"${2:document}.querySelector('$1')$0"
 		],
 		"description": "Query Selector"
 	},
-	"querySelectorAll": {
+
+	"querySelectorAll()": {
 		"prefix": "qsa",
 		"body": [
-			"${2:document}.querySelectorAll('$1')"
+			"${2:document}.querySelectorAll('$1')$0"
 		],
 		"description": "Query Selector All"
 	},
-	"getElementById": {
+
+	"getElementById()": {
 		"prefix": "gid",
 		"body": [
-			"document.getElementById('$1')"
+			"document.getElementById('$1')$0"
 		],
 		"description": "Get element by ID"
 	},
-	"getElementsByClassName": {
+
+	"getElementsByClassName()": {
 		"prefix": "gcn",
 		"body": [
-			"${2:document}.getElementsByClassName('$1')"
+			"${2:document}.getElementsByClassName('$1')$0"
 		],
 		"description": "Get elements by class name"
 	},
+
 	"Random Number Generator": {
 		"prefix": "rng",
 		"body": [
@@ -101,38 +105,82 @@
 		],
 		"description": "Generate number between 'min' and 'max'"
 	},
+
 	"setTimeout()": {
 		"prefix": "timeout",
 		"body": [
-			"setTimeout(()=> { $2}, ${1:100});"
+			"setTimeout(function() { $0}, ${1:100});"
 		],
 		"description": "setTimeout()"
 	},
+
 	"setInterval()": {
 		"prefix": "interval",
 		"body": [
-			"setInterval(()=> { $2}, ${1:100});"
+			"setInterval(function() { $0}, ${1:100});"
 		],
 		"description": "setInterval()"
 	},
+
 	"Comment Block": {
 		"prefix": "comB",
 		"body": [
 			"/**",
 			" * ",
-			" * $1",
+			" * $0",
 			" * ",
 			"**/",
 		],
 		"description": "Multi-line comment block"
 	},
-	"removeMe": {
+
+	"DOM: Ready": {
+		"prefix": "ready",
+		"body": [
+			"function checkReady(isReady) {",
+			"\tlet attachEvent = document.attachEvent ? document.readyState === \"complete\" : document.readyState !== \"loading\";",
+			"\tattachEvent ? isReady() : document.addEventListener('DOMContentLoaded', isReady);",
+			"}",
+			"checkReady(function() {",
+			"\t$0",
+			"});//DOM is ready",
+		],
+		"description": "Execute callback function when DOM is ready."
+	},
+
+	"Remove Element": {
 		"prefix": "removeMe",
 		"body": [
-			"$1.parentElement.removeChild($1)",
+			"$0.parentElement.removeChild($0)",
 		],
 		"description": "Remove HTML Element"
 	},
+
+	"TODO Comment": {
+		"prefix": "tdc",
+		"body": [
+			"//\t\t- $0",
+		],
+		"description": "//\t\t- "
+	},
+
+	"console.log()": {
+		"prefix": "log",
+		"body": [
+			"console.log($0);",
+		],
+		"description": "console.log();"
+	},
+
+	"ESLint console.log()": {
+		"prefix": "eslog",
+		"body": [
+			"/* eslint-disable no-console*/",
+			"console.log($0);",
+			"/* eslint-enable no-console*/",
+		],
+		"description": "Bypass ESLint no-console"
+	},
 	
-// COPY FROM JSREACT
+// ^ COPY FROM JSREACT ^
 }

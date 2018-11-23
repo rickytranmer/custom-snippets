@@ -3,23 +3,30 @@
 	// description. The prefix is what is used to trigger the snippet and the body will be expanded and inserted. Possible variables are:
 	// $1, $2 for tab stops, $0 for the final cursor position, and ${1:label}, ${2:another} for placeholders. Placeholders with the 
 	// same ids are connected.
-	// Example:
+	
 	"require .ejs": {
 		"prefix": "req",
 		"body": [
-			"${require('_partials/$0.ejs')}"
+			"${require('_components/$0/index.ejs')}"
 		],
 		"description": "Require .ejs file"
 	},
+
+	"require img": {
+		"prefix": "req",
+		"body": [
+			"${require('assets/img/$0')}"
+		],
+		"description": "Require img file"
+	},
 	
-	"blank noopener": {
+	"blank noopener noreferrer": {
 		"prefix": "bno",
 		"body": [
-			"target=\"_blank\" rel=\"noopener\""
+			"target=\"_blank\" rel=\"noopener noreferrer\""
 		],
-		"description": "Target blank & rel noopener"
+		"description": "Target blank & rel noopener noreferrer"
 	},
-
 
 	"javascript:void(0);": {
 		"prefix": "jsv",
